@@ -1,0 +1,302 @@
+/* body
+{
+    width: 100%;
+    height: 100%;
+    /* background: black; */
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container
+{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background: black; */
+    background: #333333;
+}
+
+.wrapper
+{
+    width: 90%;
+    height: 100%;
+    /* background: blue; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+    color: white;
+}
+
+.wrapperComics
+{
+    width: 90%;
+    height: 100%;
+    /* background: blue; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    /* flex-flow: row wrap; */
+    color: white;
+}
+
+.heroTop
+{
+    width: 100%;
+    height: 300px;
+    margin-bottom: 30px;
+}
+
+.heroTop img
+{
+    object-fit: cover;
+}
+
+.card
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    height: 200px;
+    border: solid 1px white;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+.imageCard
+{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageCard .imageHero
+{
+    object-fit: cover;
+}
+
+.cardComics
+{
+    width: 100%;
+    height: 200px;
+    border: 1px solid white;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.leftContentCardComics
+{
+    height: 100%;
+    width: 25%;
+}
+
+.rightContentCardComics
+{
+    height: 100%;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.imageCardComics
+{
+    width: 100%;
+    height: 100%;
+}
+
+.imageCardComics img
+{
+    object-fit: contain;
+}
+
+.wrapperContainer
+{
+    width: 100%;
+    height: 1000px;
+    background: lightgoldenrodyellow;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.leftContent
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 30%;
+    height: 100%;
+    background: lightcoral;
+}
+
+.rightContent
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+    background: lightseagreen;
+
+}
+
+.comicInfos
+{
+    width: 100%;
+    height: 70%;
+    background: lightgreen;
+}
+
+.form
+{
+    width: 100%;
+    height: 30%;
+    background: rgb(72, 161, 45);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.counter
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+    background: rgb(124, 1, 1);
+}
+
+.buttons
+{
+    width: 100%;
+    height: 50%;
+    background: rgb(29, 117, 44);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button
+{
+    /* width: 35px;
+    height: 16px; */
+    padding: 15px 35px;
+    border: 1px solid black;
+}
+
+.wrapperCart
+{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    background: brown;
+}
+
+.cardCart
+{
+    width: 100%;
+    height: 200px;
+    background: green;
+    display: flex;
+}
+
+.cartLeftContent
+{
+    width: 25%;
+    height: 100%;
+    background: burlywood;
+}
+
+.cartMiddleContent
+{
+    width: 50%;
+    height: 100%;
+    background: beige;
+
+}
+
+.cartRightContent
+{
+    width: 25%;
+    height: 100%;
+    background: darkorange;
+
+}
+
+
+
+
+
+
+
+
+.work-sans {
+    font-family: 'Work Sans', sans-serif;
+}
+        
+#menu-toggle:checked + #menu {
+    display: block;
+}
+
+.hover\:grow {
+    transition: all 0.3s;
+    transform: scale(1);
+}
+
+.hover\:grow:hover {
+    transform: scale(1.02);
+}
+
+.carousel-open:checked + .carousel-item {
+    position: static;
+    opacity: 100;
+}
+
+.carousel-item {
+    -webkit-transition: opacity 0.6s ease-out;
+    transition: opacity 0.6s ease-out;
+}
+
+#carousel-1:checked ~ .control-1,
+#carousel-2:checked ~ .control-2,
+#carousel-3:checked ~ .control-3 {
+    display: block;
+}
+
+.carousel-indicators {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 2%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 10;
+}
+
+#carousel-1:checked ~ .control-1 ~ .carousel-indicators li:nth-child(1) .carousel-bullet,
+#carousel-2:checked ~ .control-2 ~ .carousel-indicators li:nth-child(2) .carousel-bullet,
+#carousel-3:checked ~ .control-3 ~ .carousel-indicators li:nth-child(3) .carousel-bullet {
+    color: #000;
+    
+} */

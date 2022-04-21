@@ -1,0 +1,185 @@
+body
+{
+    background: #000;
+}
+
+.disable
+{
+    background-color: rgb(165 180 252);
+}
+
+.disable:hover
+{
+    background-color: rgb(165 180 252);
+}
+
+.card
+{
+    width: 25%;
+}
+
+.subCard
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.work-sans {
+    font-family: 'Work Sans', sans-serif;
+}
+        
+#menu-toggle:checked + #menu {
+    display: block;
+}
+
+.hover\:grow {
+    transition: all 0.3s;
+    transform: scale(1);
+}
+
+.hover\:grow:hover {
+    transform: scale(1.02);
+}
+
+.carousel-open:checked + .carousel-item {
+    position: static;
+    opacity: 100;
+}
+
+.carousel-item {
+    -webkit-transition: opacity 0.6s ease-out;
+    transition: opacity 0.6s ease-out;
+}
+
+#carousel-1:checked ~ .control-1,
+#carousel-2:checked ~ .control-2,
+#carousel-3:checked ~ .control-3,
+#carousel-4:checked ~ .control-4,
+#carousel-5:checked ~ .control-5,
+#carousel-6:checked ~ .control-6 {
+    display: block;
+}
+
+.carousel-indicators {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 2%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 10;
+}
+
+#carousel-1:checked ~ .control-1 ~ .carousel-indicators li:nth-child(1) .carousel-bullet,
+#carousel-2:checked ~ .control-2 ~ .carousel-indicators li:nth-child(2) .carousel-bullet,
+#carousel-3:checked ~ .control-3 ~ .carousel-indicators li:nth-child(3) .carousel-bullet,
+#carousel-4:checked ~ .control-4 ~ .carousel-indicators li:nth-child(4) .carousel-bullet,
+#carousel-5:checked ~ .control-5 ~ .carousel-indicators li:nth-child(5) .carousel-bullet,
+#carousel-6:checked ~ .control-6 ~ .carousel-indicators li:nth-child(6) .carousel-bullet {
+    color: #000;
+    /*Set to match the Tailwind colour you want the active one to be */
+}
+
+.nav
+{
+    background: #202020;
+    color: #ffffff;
+}
+
+.footer
+{
+    width: 100%;
+    height: 400px;
+    background: #202020;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .logo
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .logo .imageLogo
+{
+    height: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .logo .links
+{
+    height: 33%;
+    width: 95%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer .logo .credit
+{
+    height: 33%;
+}
+
+.heroesName
+{
+    font-family: 'Comic Sans MS', arial;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.quantityOrdered
+{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+ .quantity
+{
+    width: 50%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+ .lessArticle
+{
+    width: 25%;
+    cursor: pointer;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+ .moreArticle
+{
+    width: 25%;
+    cursor: pointer;
+}
+
+.counterDiv
+{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.counter
+{
+    height: 50px;
+    border: 3px solid #4338C9;
+    border-radius: 4px;
+}

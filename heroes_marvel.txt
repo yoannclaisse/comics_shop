@@ -1,0 +1,24 @@
+iron man = Iron Man1009368
+captain america =Captain America1009220
+thor = Thor1009664
+hulk = Hulk1009351
+black window =Black Widow1009189
+spider man (1602) = 1011054
+black panther =Black Panther1009187
+ant man = Ant-Man (Hank Pym)1009155
+doctor strange = Doctor Strange1009282
+thanos= Thanos1009652
+deadpool = Deadpool1009268
+wolferine = 1009718
+dardevil = Daredevil1009262
+cyclop = Cyclops1009257
+surfeur d'argent = 1009592
+gost rider = Ghost Rider (Daniel Ketch)1010925
+
+
+
+
+
+
+
+ray.so = snippet
