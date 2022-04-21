@@ -49,16 +49,14 @@
     }
     include './includes/header.php';
 ?>
-<button type="button" onclick="getURL();">Get Page URL</button>
+
 <!-- previous and next button -->
-<!-- <div class="inline-flex"> -->
-    <a href="./heroComics.php?id=<?=$id?>&page=<?=$page + 1?>" class="next fixed right-0 top-2/4 bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-l">
-        Next
-    </a>
-    <a href="./heroComics.php?id=<?=$id?>&page=<?=$page - 1?>" class="prev fixed left-0 top-2/4 bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-r">
-        Prev
-    </a>
-<!-- </div> -->
+<a href="./heroComics.php?id=<?=$id?>&page=<?=$page + 1?>" class="next fixed right-0 top-2/4 bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-l">
+    Next
+</a>
+<a href="./heroComics.php?id=<?=$id?>&page=<?=$page - 1?>" class="prev fixed left-0 top-2/4 bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-r">
+    Prev
+</a>
 
 <section class="bg-white py-8">
     <div class="container mx-auto flex items-center flex-wrap pt-4 pb-12">

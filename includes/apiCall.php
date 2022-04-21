@@ -36,7 +36,7 @@ function apiCall($url, $md5)
         $result = curl_exec($curl);                             // Éxecuter la requête
         curl_close($curl);                                      // Fermer cURL
 
-        file_put_contents($filePath, $result);
+        // file_put_contents($filePath, $result);
     }
 
     $result = json_decode($result);
