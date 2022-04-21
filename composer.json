@@ -1,0 +1,11 @@
+{
+	"description": "My app",
+	"name": "project/comics-shop",
+	"homepage": "https://www.comics-shop.com",
+	"license": "MIT",
+	"config": {
+		"platform": {
+			"php": "8.1.1"
+		}
+	}
+}
