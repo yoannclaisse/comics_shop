@@ -1,6 +1,3 @@
-<?php
-    $quantity = 0
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -44,7 +41,7 @@
                             <circle cx="10.5" cy="18.5" r="1.5" />
                             <circle cx="17.5" cy="18.5" r="1.5" />
                         </svg>
-                        <span class="absolute top-0 right-0 inline-flex items-center justify-center px-2 py-1 text-xs font-bold leading-none text-red-100 transform translate-x-1/2 -translate-y-1/2 bg-red-600 rounded-full"><?=$quantity = in_array("cart", $_SESSION)? sizeof($_SESSION['cart']) : 0?></span>
+                        <span class="absolute top-0 right-0 inline-flex items-center justify-center px-2 py-1 text-xs font-bold leading-none text-red-100 transform translate-x-1/2 -translate-y-1/2 bg-red-600 rounded-full"><?=$quantity = in_array($_SESSION['cart'], $_SESSION)? sizeof($_SESSION['cart']) : 0?></span>
                     </span>
                 </a>
             </div>
